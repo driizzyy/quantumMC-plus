@@ -11,8 +11,8 @@ import static net.minecraft.client.renderer.RenderPipelines.*;
 
 class Pipelines {
     static final RenderPipeline.Snippet GLOBAL_LINES_SNIPPET = RenderPipeline.builder(MATRICES_FOG_SNIPPET, GLOBALS_SNIPPET)
-            .withVertexShader(Identifier.fromNamespaceAndPath("oyvey", "core/rendertype_lines_smooth"))
-            .withFragmentShader(Identifier.fromNamespaceAndPath("oyvey", "core/rendertype_lines_smooth"))
+            .withVertexShader(Identifier.fromNamespaceAndPath("quantummcplus", "core/rendertype_lines_smooth"))
+            .withFragmentShader(Identifier.fromNamespaceAndPath("quantummcplus", "core/rendertype_lines_smooth"))
             .withVertexFormat(DefaultVertexFormat.POSITION_COLOR_NORMAL_LINE_WIDTH, VertexFormat.Mode.LINES)
             .withBlend(BlendFunction.TRANSLUCENT)
             .withCull(false)

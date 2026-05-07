@@ -3,7 +3,7 @@ package me.alpha432.oyvey.features.modules.hud;
 import me.alpha432.oyvey.event.impl.render.Render2DEvent;
 import me.alpha432.oyvey.features.modules.client.HudModule;
 import me.alpha432.oyvey.features.settings.Setting;
-import me.alpha432.oyvey.util.BuildConfig;
+import me.driizzyy.quantummcplus.util.BuildConfig;
 import me.alpha432.oyvey.util.TextUtil;
 
 public class WatermarkHudModule extends HudModule {

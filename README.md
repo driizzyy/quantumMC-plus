@@ -1,7 +1,7 @@
 <div align="center">
 
-# oyvey-ported
-Kosher client base ported to modern Minecraft by [@cattyngmd](https://github.com/cattyngmd)
+# QuantumMC+
+Modern Minecraft client base by [@DriizzyyB](https://github.com/driizzyy)
 
 <img src="images/ui.png" width="90%" />
 
@@ -9,6 +9,8 @@ Kosher client base ported to modern Minecraft by [@cattyngmd](https://github.com
 ![](https://i.imgur.com/VYjIphG.png)
 
 # What
-Add stuff to it like you would add stuff to your 1.12.2 OyVey paste
+A modern client base ported to QuantumMC+.
+
+> Repository: [https://github.com/driizzyy/QuantumMC-plus](https://github.com/driizzyy/QuantumMC-plus)
 
 </div>

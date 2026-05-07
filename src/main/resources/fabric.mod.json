@@ -1,20 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "oyvey",
+  "id": "quantummcplus",
   "version": "${version}",
-  "name": "oyvey-ported",
-  "description": "free and opensource client base",
+  "name": "QuantumMC+",
+  "description": "QuantumMC+ Fabric client by DriizzyyB",
   "authors": [
-    "3arthqu4ke",
-    "alpha432",
-    "cattyn"
+    "DriizzyyB"
   ],
   "contact": {
-    "repo": "https://github.com/mioclient/oyvey-ported"
+    "repo": "https://github.com/driizzyy/QuantumMC-plus"
   },
   "license": "MIT",
   "environment": "client",
-  "accessWidener": "oyvey.accesswidener",
+  "accessWidener": "quantummcplus.accesswidener",
   "entrypoints": {
     "client": [
       "me.alpha432.oyvey.OyVey"
@@ -24,7 +22,7 @@
     ]
   },
   "mixins": [
-    "oyvey.mixins.json"
+    "quantummcplus.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

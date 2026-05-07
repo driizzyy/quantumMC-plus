@@ -22,7 +22,7 @@ import java.util.List;
 
 public class ConfigManager {
     private static final Logger LOGGER = LoggerFactory.getLogger("ConfigManager");
-    private static final Path OYVEY_PATH = FabricLoader.getInstance().getGameDir().resolve("oyvey");
+    private static final Path QUANTUMMCPLUS_PATH = FabricLoader.getInstance().getGameDir().resolve("quantummcplus");
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     private final List<Jsonable> jsonables = new LinkedList<>();
@@ -35,7 +35,7 @@ public class ConfigManager {
         mkdirs();
         for (Jsonable jsonable : jsonables) {
             try {
-                String read = Files.readString(OYVEY_PATH.resolve(jsonable.getFileName()));
+                String read = Files.readString(QUANTUMMCPLUS_PATH.resolve(jsonable.getFileName()));
                 jsonable.fromJson(JsonParser.parseString(read));
             } catch (Throwable e) {
                 LOGGER.error("Failed to load", e);
@@ -48,7 +48,7 @@ public class ConfigManager {
         for (Jsonable jsonable : jsonables) {
             try {
                 JsonElement json = jsonable.toJson();
-                Files.writeString(OYVEY_PATH.resolve(jsonable.getFileName()), GSON.toJson(json));
+                Files.writeString(QUANTUMMCPLUS_PATH.resolve(jsonable.getFileName()), GSON.toJson(json));
             } catch (Throwable e) {
                 LOGGER.error("Failed to write to file", e);
             }
@@ -56,8 +56,8 @@ public class ConfigManager {
     }
 
     private void mkdirs() {
-        if (!OYVEY_PATH.toFile().exists()) {
-            boolean success = OYVEY_PATH.toFile().mkdirs();
+        if (!QUANTUMMCPLUS_PATH.toFile().exists()) {
+            boolean success = QUANTUMMCPLUS_PATH.toFile().mkdirs();
             if (!success) {
                 throw new RuntimeException("Failed to create needed directories!");
             }

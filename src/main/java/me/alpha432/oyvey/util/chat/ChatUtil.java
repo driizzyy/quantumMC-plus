@@ -51,7 +51,7 @@ public class ChatUtil {
     }
 
     public static Component getClientNameComponent() {
-        return Component.empty().withColor(OyVey.colorManager.getColorAsInt()).append("OyVey");
+        return Component.empty().withColor(OyVey.colorManager.getColorAsInt()).append("QuantumMC+");
     }
 
     private static GuiMessageTag getMessageTag() {

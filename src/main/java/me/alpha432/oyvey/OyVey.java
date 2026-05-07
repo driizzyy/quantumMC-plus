@@ -1,7 +1,7 @@
 package me.alpha432.oyvey;
 
 import me.alpha432.oyvey.manager.*;
-import me.alpha432.oyvey.util.BuildConfig;
+import me.driizzyy.quantummcplus.util.BuildConfig;
 import me.alpha432.oyvey.util.TextUtil;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
@@ -11,7 +11,7 @@ import org.apache.logging.log4j.Logger;
 public class OyVey implements ModInitializer, ClientModInitializer {
     public static float TIMER = 1f;
 
-    public static final Logger LOGGER = LogManager.getLogger("OyVey");
+    public static final Logger LOGGER = LogManager.getLogger("QuantumMC+");
     public static ServerManager serverManager;
     public static ColorManager colorManager;
     public static RotationManager rotationManager;
@@ -26,7 +26,7 @@ public class OyVey implements ModInitializer, ClientModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("Pre-initializing {} v{}",
+        LOGGER.info("QuantumMC+ Pre-initializing {} v{}",
                 BuildConfig.NAME, BuildConfig.VERSION);
         configManager = new ConfigManager();
         eventManager = new EventManager();
@@ -45,7 +45,7 @@ public class OyVey implements ModInitializer, ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        LOGGER.info("Initializing {}", BuildConfig.NAME);
+        LOGGER.info("QuantumMC+ Initializing {}", BuildConfig.NAME);
 
         long startTime = System.nanoTime();
 
@@ -60,7 +60,7 @@ public class OyVey implements ModInitializer, ClientModInitializer {
 
         long endTime = System.nanoTime();
 
-        LOGGER.info("Initialized {} in {}ms",
+        LOGGER.info("QuantumMC+ Initialized {} in {}ms",
                 BuildConfig.NAME, (endTime - startTime) / 1000000.0);
     }
 }

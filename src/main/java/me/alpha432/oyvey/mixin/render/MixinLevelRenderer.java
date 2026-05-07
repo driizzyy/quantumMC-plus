@@ -42,7 +42,7 @@ public class MixinLevelRenderer {
         stack.mulPose(Axis.XP.rotationDegrees(mc.gameRenderer.getMainCamera().xRot()));
         stack.mulPose(Axis.YP.rotationDegrees(mc.gameRenderer.getMainCamera().yRot() + 180f));
 
-        profiler.push("oyvey-render-3d");
+        profiler.push("quantummcplus-render-3d");
 
         Render3DEvent event = new Render3DEvent(stack, tickCounter.getGameTimeDeltaPartialTick(true));
         EVENT_BUS.post(event);
