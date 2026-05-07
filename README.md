@@ -4,9 +4,9 @@
 Modern Minecraft client base by [@DriizzyyB](https://github.com/driizzyy)
 
 # Setup
-- Minecraft version 1.21.11
-- Fabric Loader version 0.18.4
-- Fabric API version 0.141.1+1.21.11
+-Minecraft version 1.21.11
+-Fabric Loader version 0.18.4
+-Fabric API version 0.141.1+1.21.11
 
 # Installation
 1. Install Minecraft 1.21.11 with Fabric Loader 0.18.4
