@@ -18,7 +18,7 @@ Modern Minecraft client base by [@DriizzyyB](https://github.com/driizzyy)
 A modern Minecraft client QuantumMC+, originally Oyvey Ported.
 
 # Oyvey Ported Repo
-> [[https://github.com/driizzyy/QuantumMC-plus](https://github.com/mioclient/oyvey-ported)
+> [https://github.com/driizzyy/QuantumMC-plus](https://github.com/mioclient/oyvey-ported)
 
 # QuantumMC+ Repo
 > [https://github.com/driizzyy/QuantumMC-plus](https://github.com/driizzyy/QuantumMC-plus)
