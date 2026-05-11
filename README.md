@@ -3,6 +3,9 @@
 # QuantumMC+ V1.0.0
 Modern Minecraft client by [@DriizzyyB](https://github.com/driizzyy)
 
+# Latest Release
+(https://github.com/driizzyy/quantumMC-plus/releases/download/MC-1.21.11/quantummcplus-1.0.0-forgemc-1.21.11.jar)
+
 # Setup
 - Minecraft version 1.21.11
 - Fabric Loader version 0.18.4
