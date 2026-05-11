@@ -1,7 +1,7 @@
 <div align="center">
 
 # QuantumMC+ V1.0.0
-Modern Minecraft client base by [@DriizzyyB](https://github.com/driizzyy)
+Modern Minecraft client by [@DriizzyyB](https://github.com/driizzyy)
 
 # Setup
 - Minecraft version 1.21.11
