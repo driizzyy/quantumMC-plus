@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "quantummcplus",
+  "version": "${version}",
+  "name": "QuantumMC+",
+  "description": "QuantumMC+ Fabric client by DriizzyyB",
+  "authors": [
+    "DriizzyyB"
+  ],
+  "contact": {
+    "repo": "https://github.com/driizzyy/QuantumMC-plus"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "accessWidener": "quantummcplus.accesswidener",
+  "entrypoints": {
+    "client": [
+      "me.alpha432.oyvey.OyVey"
+    ],
+    "main": [
+      "me.alpha432.oyvey.OyVey"
+    ]
+  },
+  "mixins": [
+    "quantummcplus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
