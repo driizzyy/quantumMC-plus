@@ -3,6 +3,10 @@
 # QuantumMC+ V1.0.0
 Modern Minecraft client by [@DriizzyyB](https://github.com/driizzyy)
 
+# Updates
+QuantumMC+ updates have moved to the [Main Branch](https://github.com/driizzyy/quantumMC-plus/tree/main)
+to keep the Master Branch Oyvey/QuantumMC+ base clean. To download the latest SRC, click the highlighted Main Branch button above.
+
 # Latest Release
 [QuantumMC+ V1.0.0 | MC V1.21.11](https://github.com/driizzyy/quantumMC-plus/releases/download/MC-1.21.11/quantummcplus-1.0.0-forgemc-1.21.11.jar)
 
