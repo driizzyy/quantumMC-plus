@@ -6,7 +6,7 @@ Modern Minecraft utility client for Fabric 1.21.x by [@DriizzyyB](https://github
 
 Originally ported from [Oyvey](https://github.com/mioclient/oyvey-ported).
 
-<img src="images/ui.png" width="90%" />
+<img src="images/quantummc+.png" width="90%" />
 
 </div>
 
